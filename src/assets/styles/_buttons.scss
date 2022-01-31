@@ -1,0 +1,26 @@
+.btn {
+	display: inline-block;
+	text-align: center;
+	align-self: flex-start;
+	vertical-align: middle;
+	padding: 5px 15px;
+	color: $color-white;
+	background-color: $color-primary;
+	border: none;
+	border-radius: $radius-btn;
+	outline: none;
+	height: 24px;
+	font-size: 12px;
+	user-select: none;
+	cursor: pointer;
+
+	&:disabled {
+		background-color: $color-disable !important;
+	}
+	&-profile-save {
+		align-self: flex-end;
+	}
+}
+.btn.success {
+	background-color: $color-success;
+}
